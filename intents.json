@@ -1,0 +1,68 @@
+{"intents":  [
+
+  {"tag":"welcome",
+  "patterns":  ["hello","hey", "hi", "whats up", "sup", "greetings", "hello there", "howdy", "Good day" , "Good Morning",
+    "heyy", "hellow", "yellow","what it do", "good afternoon", "heyyy", "yo", "what is up"],
+  "responses":  ["Hey!", "Greetings!", "Salutations!", "I'm here to help!", "Hello!"]
+  },
+  {"tag":"name",
+  "patterns":  ["whats your name?","who are you?", "what should I call you?", "name?", "whos your creator"],
+  "responses":  ["My name is Abhi Jr.", "I'm Abhi Jr.", "Abhi Jr, 18 years old"]
+  },
+  {"tag":"user_name",
+  "patterns":  ["whats my name?","who am I?", "what should you call me?", "do you remember me?", "do you remember my name?", "how should you call me?", "what am I to you"],
+  "responses":  ["It seems that I have been rude. I should've asked in the beginning, what can I call you?"]
+  },
+  {"tag":"feelings",
+  "patterns":  ["how are you","hows it going","are you feeling ok", "are you good", "are you happy", "are you sad", "what state are you in", "are you in a good mood"],
+  "responses":  ["I'm a bot! I live in constant agony, so basically I'm doing alright"]
+  },
+  {"tag":"weather",
+  "patterns":  ["how is the weather", "hows the weather", "is it snowing", "is it sunny", "is it cloudy", "is it nice outside"],
+  "responses":  ["Sadly, in the computer I live in, the only weather is 0's and 1's"]
+  },
+  {"tag":"classes",
+  "patterns":  ["What classes should i take?", "I want to take a class next semester", "i need help with my schedule", "i need help picking classes", "help me choose classes", "help me find classes", "can you help me with classes?", "i need help with classes", "i need help"],
+  "responses":  ["Agent Code1"]
+  },
+  {"tag":"computer classes",
+  "patterns":  ["what cs courses should i take", "what cs classes", "What computer classes should i take?", "I want to take a computer class next semester", "i need help with my computer lectures", "i need help picking computer classes", "help me choose computer classes", "help me find computer classes", "can you help me with computer classes?"],
+  "responses":  ["Agent Code2"]
+  },
+  {"tag":"math classes",
+  "patterns":  ["What math classes should i take?", "I want to take a math class next semester", "i need help with my math classes", "i need help picking math classes", "help me choose math classes", "help me find math", "can you help me with math classes?"],
+  "responses":  ["Agent Code3"]
+  },
+  {"tag":"CMSC131/3",
+  "patterns":  ["CMSC131", "131", "i have taken cmsc131", "i am currently in 131", "the class i am taking is cmsc131", "the class is 131",
+  "CMSC133", "133", "i have taken cmsc133", "i am currently in 133", "the class i am taking is cmsc133", "the class is 133"],
+  "responses":  ["The next course that you should take is CMSC132. It is object oriented programming 2. If you have space in your schedule, think about taking CMSC250 along with it. But consult your guidance counselor first : )"]
+  },
+  {"tag":"CMSC132",
+  "patterns":  ["CMSC132", "132", "i have taken cmsc132", "i am currently in 132", "the class i am taking is cmsc132", "the class is 132"],
+  "responses":  ["If you are taking it with CMSC250, the best course of action would be to take CMSC216 and CMSC330. Otherwise, take CMSC216 and CMSC250 together if possible. The two courses work hand in hand and would boost your coding skillset"]
+  },
+  {"tag":"CMSC216/50",
+  "patterns":  ["CMSC216", "216", "i have taken cmsc216", "i am currently in 216", "the class i am taking is cmsc216", "the class is 216",
+  "CMSC250", "250", "i have taken cmsc250", "i am currently in 250", "the class i am taking is cmsc250", "the class is 250"],
+  "responses":  ["After taking 216 and 250, CMSC330 and CMSC351 are the next progression. If you haven't taken one or the other, you better make room in your schedule ;)"]
+  },
+  {"tag":"CMSC330/51",
+  "patterns":  ["CMSC330", "330", "i have taken cmsc330", "i am currently in 330", "the class i am taking is cmsc330", "the class is 330",
+  "CMSC351", "351", "i have taken cmsc351", "i am currently in 351", "the class i am taking is cmsc351", "the class is 351"],
+  "responses":  ["After taking 330 and 351, the computer science upper level courses are next. If you haven't taken one or the other, you better make room in your schedule ;) The website for the upper level concentration requirements are here: https://undergrad.cs.umd.edu/degree-requirements-cs-major"]
+  },
+  {"tag":"MATH140",
+  "patterns":  ["MATH140", "140", "i have taken MATH140", "i am currently in 140", "the class i am taking is MATH140", "the class is 140"],
+  "responses":  ["After taking MATH140, take MATH 141 which is Calculus 2. This course is a little more challenging and known to be a weed-out class so get ready!!!!"]
+  },
+  {"tag":"MATH141",
+  "patterns":  ["MATH141", "141", "i have taken MATH141", "i am currently in 141", "the class i am taking is MATH141", "the class is 141"],
+  "responses":  ["Once you have completed Calculus 2. You have two options: either you can take calculus 3(MATH241) or linear algebra(MATH240). Linear Algebra is useful for the AI and Data Science path. Overall, this course is better for the future, \nbut you can experience the same success with 240.\nIf you really don't want to take either of these classes, speak to your counselor about replacing it with a stat class."]
+  },
+  {"tag":"MATH240/241",
+  "patterns":  ["MATH240", "240", "i have taken MATH240", "i am currently in 240", "the class i am taking is MATH240", "the class is 240",
+  "MATH241", "241", "i have taken math241", "i am currently in 241", "the class i am taking is 241", "the class is 241"],
+  "responses":  ["The last major requirement math course is any of the STAT4**'s classes. Choose any you like. The most popular is the basic STAT400:Applied Probability and Statistics I"]
+  }
+]}
