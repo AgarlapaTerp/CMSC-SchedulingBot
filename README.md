@@ -14,3 +14,10 @@ for its functions in the chatBotResponse.py file.
 
 
 P.S make sure to run the train.py file before the CMSC-Bot.py file to train the bot. The console will let you know when the training is complete.
+
+Examples of ChatBot running
+
+![image](https://user-images.githubusercontent.com/97764660/230502794-2c7a994f-b3c2-4b21-9319-5020b2e5be73.png)
+![image](https://user-images.githubusercontent.com/97764660/230502807-a17b7945-800d-4d3e-92a9-3762299b3b42.png)
+![image](https://user-images.githubusercontent.com/97764660/230502815-8a7230ef-00d4-46c9-81a0-65b261516990.png)
+
